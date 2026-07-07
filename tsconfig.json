@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/portal-e2e"
+    },
+    {
+      "path": "./apps/portal"
+    },
+    {
+      "path": "./apps/api"
+    },
+    {
+      "path": "./libs/database"
+    },
+    {
+      "path": "./libs/api-client"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+  - 'libs/*'
+allowBuilds:
+  '@parcel/watcher': true
+  '@scarf/scarf': true
+  '@swc/core': true
+  bufferutil: true
+  esbuild: true
+  less: true
+  nx: true
+  sharp: true
+  unrs-resolver: true
+  utf-8-validate: true
